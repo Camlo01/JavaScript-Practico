@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figuras geométricas | Curso practico de javascript </title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="figuras.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Figuras geométricas</h1>
+
+        <p>Este es el primer taller del curso práctico práctico de JavaScript</p>
+    </header>
+
+    <main>
+        <section class="calculate">
+            <!-- Cuadrado -->
+            <section class="main-cards">
+                <h2>Calcular <b>Cuadrado</b></h2>
+                <form action="">
+                    <label for="InputCuadrado">Escribe cuánto mide un lado de tu cuadrado</label>
+                    <input id="InputCuadrado" type="text" placeholder="Lado">
+                    <div class="buttons">
+                        <button type="button" onclick="calcularPerimetroCuadrado()">Calcular Perímetro</button>
+                        <button type="button" onclick="calcularAreaCuadrado()">Calcular Área</button>
+                    </div>
+                </form>
+            </section>
+            <!-- Circulo -->
+            <section class="main-cards">
+                <h2>Calcular <b>Circulo</b></h2>
+                <form action="">
+                    <label for="InputCirculo">Escribe el radio del círculo</label>
+                    <input id="InputCirculo" type="text" placeholder="radio">
+                    <div class="buttons">
+                        <button type="button" onclick="calcularCircunferenciaCirculo()">Calcular Circunferencia</button>
+                        <button type="button" onclick="calcularAreaCirculo()">Calcular Área</button>
+                        <!-- <button type="button" onclick="calcularAreaCuadrado()"></button> -->
+                    </div>
+                </form>
+            </section>
+            <!-- Triangulo -->
+            <section class="main-cards">
+                <h2>Área de un <b>Triángulo</b></h2>
+                <form action="">
+                    <label for="InputTriangulo">Escribe cuánto mide la base y altura de tu triángulo</label>
+                    <input id="InputTrianguloBase" type="text" placeholder="Base">
+                    <input id="InputTrianguloAltura" type="text" placeholder="Altura">
+                    <div class="buttons">
+                        <button type="button" onclick="calcularAreaTriangulo()">Calcular Área</button>
+                    </div>
+                </form>
+            </section>
+            <!-- Triangulo -->
+            <section class="main-cards">
+                <h2>Perímetro de <b>Triángulo</b> Isócel</h2>
+                <form action="">
+                    <label for="InputTriangulo">Escribe cuánto mide un lado y la base del triángulo</label>
+                    <input id="InputTrianguloLado" type="text" placeholder="Lado">
+                    <input id="InputTrianguloBase" type="text" placeholder="Base">
+                    <div class="buttons">
+                        <button type="button" onclick="calcularPerimetroTriangulo()">Calcular Perímetro</button>
+                    </div>
+                </form>
+            </section>
+
+
+
+        </section>
+        </section>
+
+
+
+
+
+
+
+    </main>
+
+
+</body>
+
+</html>

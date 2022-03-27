@@ -18,6 +18,7 @@ html {
   background-color: var(--color-background--html);
 }
 
+/* Estilos de página */
 /* HEADER */
 
 header {
@@ -50,7 +51,7 @@ header p {
   flex-wrap: wrap;
 }
 
-/* cards generales */
+/* Estilos generales de tarjetas  */
 .main-cards {
   margin: 30px 10px;
   width: 100%;
@@ -64,7 +65,7 @@ header p {
   border: 6px solid transparent;
 }
 
-/* cards por figuras */
+/* Estilo de cards específico por figura */
 .card-cuadrado {
   background-color: rgb(141, 162, 255);
   border-color: rgb(0, 0, 182);
@@ -98,14 +99,13 @@ form input {
   margin: 10px;
   margin-right: 0;
 }
+/* Estilos botones geneales*/
 form .buttons {
   background-color: #00000000;
   position: relative;
   margin-top: 10px;
   margin-bottom: 10px;
 }
-
-/* Estilos botones */
 
 button {
   font-weight: 600;
@@ -118,8 +118,8 @@ button {
   border: 1px solid transparent;
   border-radius: 7px;
 }
-/* Estilos de botones por contenedor de figura */
-/* Boton de calcular de card cuadrado */
+/* Estilo de button específico por figura con :Hover */
+/* CUADRADO  */
 .card-cuadrado button {
   background-color: rgb(0, 0, 116);
   color: rgb(204, 232, 255);
@@ -128,7 +128,7 @@ button {
   background-color: rgb(0, 0, 255);
   color: rgb(255, 255, 255);
 }
-/* Boton de calcular de card circulo */
+/* CIRCULO */
 
 .card-circulo button {
   background-color: rgb(124, 0, 0);
@@ -138,7 +138,7 @@ button {
   background-color: rgb(255, 12, 12);
   color: rgb(255, 255, 255);
 }
-/* botones de calcular de card triangulo  */
+/* TRIANGULO */
 .card-triangulo button {
   background-color: rgb(107, 100, 0);
   color: rgb(255, 253, 114);

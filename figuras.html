@@ -13,11 +13,10 @@
 <body>
     <header>
         <h1>Figuras geométricas</h1>
-
         <p>Este es el primer taller del curso práctico práctico de JavaScript</p>
     </header>
-
     <main>
+        <!-- Contenedor de tarjetas -->
         <section class="calculate">
             <!-- Cuadrado -->
             <section class="main-cards  card-cuadrado">
@@ -26,6 +25,7 @@
                     <label for="InputCuadrado">Escribe cuánto mide un lado de tu cuadrado</label>
                     <input id="InputCuadrado" type="text" placeholder="Lado" alt="Ingresar lado del cuadrado">
                     <div class="buttons">
+                        <!-- botones -->
                         <button type="button" onclick="calcularPerimetroCuadrado()">Calcular Perímetro</button>
                         <button type="button" onclick="calcularAreaCuadrado()">Calcular Área</button>
                     </div>
@@ -38,13 +38,13 @@
                     <label for="InputCirculo">Escribe el radio del círculo</label>
                     <input id="InputCirculo" type="text" placeholder="radio" alt="ingresar radio del circulo">
                     <div class="buttons">
+                        <!-- botones -->
                         <button type="button" onclick="calcularCircunferenciaCirculo()">Calcular Circunferencia</button>
                         <button type="button" onclick="calcularAreaCirculo()">Calcular Área</button>
                         <!-- <button type="button" onclick="calcularAreaCuadrado()"></button> -->
                     </div>
                 </form>
             </section>
-
             <!-- Triangulo -->
             <section class="main-cards card-triangulo">
                 <h2>Perímetro de <b>Triángulo</b> Isócel</h2>
@@ -53,12 +53,12 @@
                     <input id="InputTrianguloLado" type="text" placeholder="Lado" alt="ingresar lado del triangulo">
                     <input id="InputTrianguloBase" type="text" placeholder="Base" alt="ingresar base del triangulo">
                     <div class="buttons">
+                        <!-- botones -->
                         <button type="button" onclick="calcularPerimetroTriangulo()">Calcular Perímetro</button>
                         <button type="button" onclick="calcularAlturaTriangulo()">Calcular Altura</button>
                     </div>
                 </form>
             </section>
-
             <!-- Triangulo -->
             <section class="main-cards card-triangulo">
                 <h2>Área de un <b>Triángulo</b></h2>
@@ -68,25 +68,13 @@
                     <input id="InputTrianguloAltura" type="text" placeholder="Altura"
                         alt="Ingresar altura del triangulo">
                     <div class="buttons">
+                        <!-- botones -->
                         <button type="button" onclick="calcularAreaTriangulo()">Calcular Área</button>
                     </div>
                 </form>
             </section>
-
-
-
         </section>
         </section>
-
-
-
-
-
-
-
     </main>
-
-
 </body>
-
 </html>
